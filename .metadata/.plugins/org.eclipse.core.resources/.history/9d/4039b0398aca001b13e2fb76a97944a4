@@ -26,12 +26,10 @@ public static void main(String[] args)
 	
 	char myChar = 'a';
 	
-	System.out.println("This is an int " + num);
-	System.out.println("This is a boolean " + isNum);
-	System.out.println("This is a String " + myFirstStr);
-	System.out.println("This is a double " + myFloat);
-	System.out.println("This is a char " + myChar);
-		
+	
+	
+	
+	
 	}
 
 }
