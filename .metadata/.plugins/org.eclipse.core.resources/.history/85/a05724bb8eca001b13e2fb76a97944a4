@@ -1,0 +1,15 @@
+package com.ekwiwat.javaPart1Ex22;
+
+class Exercise22 {
+	
+	public static void main(String[] args) {
+		bark();
+		
+	}
+	
+	public static void bark() {
+		String dogName = "Emma";
+		System.out.println("The Dog name = " + dogName + " bark");
+	}
+	
+}
