@@ -1,0 +1,18 @@
+package com.ekwiwat.javaPart1Ex4_4;
+
+class exercise4_4 {
+	public static void main(String[] args) {
+//		ข้อ 4.4.1
+		int i = 0;
+		while (i <= 10) {
+			System.out.println("i = " + i);
+			i++;
+		}
+//		ข้อ 4.4.2
+		int sum = 0;
+		for(int j = 1; j <= 10; j++) {
+			sum += j;
+		}
+		System.out.println("Sum = " + sum);
+	}
+}
