@@ -47,14 +47,6 @@ class exercise4_4 {
 			number = input.nextInt();
 		} while (number%2 == 0);
 		
-//		ข้อ 4.4 lab8.1 a
-		for(int count = 0; count <=20; count++) {
-			if(count == 11) {
-				System.out.println(count);
-				break;
-			}
-		}
-		
 		
 	}
 }

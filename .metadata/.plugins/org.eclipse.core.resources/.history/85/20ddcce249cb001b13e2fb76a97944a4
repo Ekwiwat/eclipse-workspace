@@ -37,24 +37,5 @@ class exercise4_4 {
 			System.out.println("counter : " + counter);
 			counter--;
 		} while (counter >= 0);
-		
-//		ข้อ 4.4 lab7.2
-		Scanner input = new Scanner(System.in);
-		int number;
-		
-		do {
-			System.out.println("Enter a number: ");
-			number = input.nextInt();
-		} while (number%2 == 0);
-		
-//		ข้อ 4.4 lab8.1 a
-		for(int count = 0; count <=20; count++) {
-			if(count == 11) {
-				System.out.println(count);
-				break;
-			}
-		}
-		
-		
 	}
 }
