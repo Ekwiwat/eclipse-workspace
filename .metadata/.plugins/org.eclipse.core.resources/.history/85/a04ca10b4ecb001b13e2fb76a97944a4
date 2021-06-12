@@ -1,0 +1,12 @@
+package com.ekwiwat.javaPart1Ex5;
+
+class exercise5 {
+	public static void main(String[] args) {
+//	No return method
+		String greeting = "Hello World";
+		sayHello(greeting);
+	}
+	public static void sayHello(String word) {
+		System.out.println(word);
+	}
+}
