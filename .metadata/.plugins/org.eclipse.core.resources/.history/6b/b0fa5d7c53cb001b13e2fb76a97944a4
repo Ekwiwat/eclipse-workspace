@@ -1,0 +1,19 @@
+package com.ekwiwat.javaPart2Ex7;
+
+class exercise7 {
+	public static void main(String[] args) {
+		String string_1 = "You and Me", string_2 = "you and me";
+		if(string_1.equals(string_2)) {
+			System.out.println("Equal");
+		} else {
+			System.out.println("Not equal");
+		}
+		
+		if(string_1.contains("me")) {
+			System.out.println("This String contains Me");
+		} else {
+			System.out.println("This String doesn't contain Me");
+		}
+		
+	}
+}
