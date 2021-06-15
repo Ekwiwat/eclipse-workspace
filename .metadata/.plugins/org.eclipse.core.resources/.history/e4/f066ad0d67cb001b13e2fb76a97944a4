@@ -1,0 +1,54 @@
+package com.ekwiwat.javaPart2Ex8;
+
+// ข้อ 8 lab 13.1
+class Loop2DimensionArray_2 {
+	
+public static void main(String[] args) {
+int[][] twoD_Array = {
+{1, 2, 3},{4, 5, 6, 7},{8, 9}
+};
+for (int[] row : twoD_Array) { 
+	for (int element: row) {
+	System.out.println(element);	
+}
+}
+
+int sumLast = sumOfElementsInLastColumn(twoD_Array);
+System.out.println(sumLast);
+
+//ข้อ 8 lab 13.2
+//int sum =0;
+//
+//for(int row = 0; row < twoD_Array.length; row++) {
+//	for(int column = 0; column < twoD_Array[row].length; column++) {
+//		sum += twoD_Array[row][twoD_Array.length];
+//		System.out.println(sum);
+//	}
+//}
+//		
+	}
+public static int sumOfElementsInLastColumn(int[][] arr)
+{
+    int sum = 0;
+
+    for (int i = 0; i < arr.length; i++)
+    {
+        int [] row = arr[i];
+
+        sum += row[row.length - 1];
+    }
+    return sum;
+}
+//{
+//
+//	int sum = 0;
+//    for(int row = 0 ; row < arr.length; row++){
+//        for(int column = 0 ; column <arr[row].length ; column++){
+//            sum += arr[row][arr.length];
+//        }
+//    }
+//    return sum;
+//  
+//}
+}
+
