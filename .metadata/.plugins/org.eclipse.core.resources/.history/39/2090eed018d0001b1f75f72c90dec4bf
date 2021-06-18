@@ -1,0 +1,11 @@
+package com.ekwiwat.javaPart3;
+
+public class EmployeeSpecial extends Employee{
+	public String specialSkill;
+	
+	public EmployeeSpecial(String firstnameInput, String lastnameInput, int salaryInput, String specialSkillInput) {
+		super(firstnameInput, lastnameInput, salaryInput);
+		specialSkill = specialSkillInput;
+	}
+
+}

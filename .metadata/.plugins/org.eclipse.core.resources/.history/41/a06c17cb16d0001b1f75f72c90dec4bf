@@ -1,0 +1,28 @@
+package com.ekwiwat.javaPart3;
+
+public class Employee {
+	public String firstname;
+	public String lastname;
+	private int salary;
+//	Exercise 13.2.1
+	public String position;
+	
+
+	public Employee(String firstnameInput, String lastnameInput, int salaryInput) {
+	
+		firstname = firstnameInput;
+		lastname = lastnameInput;
+		salary = salaryInput;
+	}
+	public void hello() {
+		System.out.println("Hello " + firstname);
+		
+	}
+	public int getSalary() {
+		return salary;
+	}
+//	Exercise 13.2.2-3
+	public void checkPosition() {
+		System.out.println("My position is " + position);
+	}
+}
