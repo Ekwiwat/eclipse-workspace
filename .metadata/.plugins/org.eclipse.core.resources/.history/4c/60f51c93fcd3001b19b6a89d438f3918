@@ -1,0 +1,8 @@
+package com.ekwiwt.javaPart4;
+
+public class IproductFrontPage {
+	public String getTitle();
+	public String getPrice();
+	public String getUrlImage();
+	public String getSoldText();
+}

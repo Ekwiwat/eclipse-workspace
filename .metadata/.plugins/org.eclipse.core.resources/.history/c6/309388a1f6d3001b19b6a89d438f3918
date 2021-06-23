@@ -1,0 +1,5 @@
+package com.ekwiwt.javaPart4;
+
+public interface IWebsiteCreator {
+
+}

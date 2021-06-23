@@ -1,0 +1,10 @@
+package com.ekwiwt.javaPart4;
+
+public class AI implements IWebsiteCreator {
+	public String name;
+	   public String language;
+	   public AI(String nameInput, String languageInput) {
+	       this.name = nameInput;
+	       this.language = languageInput;
+
+}

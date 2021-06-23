@@ -1,0 +1,16 @@
+package com.ekwiwt.javaPart4;
+
+import com.ekwiwat.javaPart3.CEO;
+
+import com.ekwiwat.javaPart3.Programmer;
+
+public class day10 {
+	public static void main(String[] args) {
+		Employee dang = new Employee("Dang", "Red", 10000);
+		Employee ceo = new CEO("Captain", "Marvel", 30000);
+		Programmer programmer = new Programmer("Ekwiwat","Patworachakul", 15000);
+		
+		
+	}
+
+}
